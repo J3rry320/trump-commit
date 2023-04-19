@@ -1,0 +1,27 @@
+{
+  "name": "trump-commit",
+  "version": "1.0.0",
+  "description": "A global npm module for committing code with a Trump-style message.",
+  "main": "index.js",
+  "bin": {
+    "trump-commit": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trump",
+    "commit",
+    "message",
+    "git"
+  ],
+  "author": "J3rry SA7PA7HY",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.1"
+  },
+  "homepage": "https://github.com/J3rry320/trump-commit.git#readme",
+  "bugs": {
+    "url": "https://github.com/J3rry320/trump-commit.git/issues"
+  }
+}
