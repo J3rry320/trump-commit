@@ -1,6 +1,6 @@
 {
   "name": "trump-commit",
-  "version": "1.69.420",
+  "version": "2.69.420",
   "description": "A global npm module for committing code with a Trump-style message.",
   "main": "index.js",
   "bin": {
