@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 const { program } = require("commander");
 
 const { commitMessages } = require("./config");
-
+console.log("d");
 program
   .description(
     "Generate the greatest commit message from a list of the best messages and commit all code to make your codebase tremendous."
