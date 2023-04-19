@@ -37,4 +37,4 @@ const commitCode = (message) => {
   });
 };
 
-program.parse(process.argv);
+program.parse(process.argv, "");
