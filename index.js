@@ -26,12 +26,13 @@ program
 const commitCode = (message) => {
   exec(`git add . && git commit -m "${message}"`, (error, stdout, stderr) => {
     if (error) {
-      console.error(`exec error: ${error}`);
+      console.error(`Failed to commit code with error: ${error}`);
       console.error(`stderr: ${stderr}`);
       return;
     }
+    console.log(`Successfully committed code with message: ${message}`);
     console.log(
-      `${stdout} \n Thankyou for using the package. You have a very big brain.`
+      `Thank you for using Trump Commit. Your codebase is tremendous.`
     );
   });
 };
